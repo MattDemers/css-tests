@@ -1,8 +1,19 @@
+/* Admonition Text */
+
+/* To use, add this HTML (when this CSS is loaded):
+
+<div class="goldbox">
+<p class="goldbox-title">Note</p>
+<p class="goldbox-text">All applications must be completed by <strong>this bold due date, 2026.</strong></p></div> 
+
+*/
+
 .goldbox {
   background-color: white;
   overflow: hidden;
   margin: 1.5rem 0;
-  width: fit-content;
+  width: 100%;
+  max-width: 75ch; /* Included because it doesn't look good at 100% width on single-column layouts. This basically means it'll be 100% width on two-column layouts but stay a max of 75ch on one-column layouts */
 }
 
 .goldbox-title {
