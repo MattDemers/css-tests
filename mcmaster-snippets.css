@@ -2,6 +2,7 @@
   background-color: white;
   overflow: hidden;
   margin: 1.5rem 0;
+  width: fit-content;
 }
 
 .goldbox-title {
