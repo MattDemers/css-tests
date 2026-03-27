@@ -1,1 +1,21 @@
+.goldbox {
+  background-color: white;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
 
+.goldbox-title {
+  background-color: #FDBF57;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 16px;
+}
+
+.goldbox-text {
+  margin: 0;
+  padding: 16px;
+  border-left: 1px #eee solid;
+  border-right: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+}
